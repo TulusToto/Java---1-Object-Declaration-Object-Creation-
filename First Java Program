@@ -1,0 +1,32 @@
+//First Java Program
+import javax.swing.*;
+
+public class Main {
+
+    //There's one method in this program
+    //The method's name is "main"
+    
+    public static void main(String[] args) {
+    //Valid identifier (Sensitive Case), you can use one of these styles
+    JFrame myWindow;
+    JFrame mywindow;
+    JFrame MYwindow;
+    JFrame MYWINDOW;
+
+    //Identifier can't accept this identifier, because there's a <space> between object name
+    //JFrame my Window;
+
+    //Create Object Creation
+    myWindow = new JFrame();
+
+    // Function of these sets
+        /* 
+         setSize to set the JFrame Size
+         setTitle to set the title of JFrame
+         setVisible to make JFrame
+        */
+    myWindow.setSize(300,200);
+    myWindow.setTitle("My First Java Program");
+    myWindow.setVisible(true);
+    }
+}
